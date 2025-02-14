@@ -1,0 +1,41 @@
+digraph {
+	dpi=300 rankdir=TB size="10,15"
+	node [color=lightblue fontname=Arial fontsize=12 shape=box style="rounded,filled"]
+	Step_1 [label="Catching a fish"]
+	Step_2 [label="is a multi-step process that involves preparing your equipment, locating the fish, enticing it to bite your bait, and finally landing it. Here's a simplified step-by-step workflow"]
+	Step_1 -> Step_2
+	Step_3 [label=""]
+	Step_2 -> Step_3
+	Step_4 [label="1. Gather Equipment"]
+	Step_3 -> Step_4
+	Step_5 [label="- Fishing rod"]
+	Step_4 -> Step_5
+	Step_6 [label="- Reel with line"]
+	Step_5 -> Step_6
+	Step_7 [label="- Baits or lures"]
+	Step_6 -> Step_7
+	Step_8 [label="- Fishing knots"]
+	Step_7 -> Step_8
+	Step_9 [label="- Fishing hook"]
+	Step_8 -> Step_9
+	Step_10 [label=""]
+	Step_9 -> Step_10
+	Step_11 [label="2. Attach Bait"]
+	Step_10 -> Step_11
+	Step_12 [label="- Depending on what kind of fish you want to catch, select your bait."]
+	Step_11 -> Step_12
+	Step_13 [label="- For example, use earthworms for common fish like bass or bluegill."]
+	Step_12 -> Step_13
+	Step_14 [label="- Thread the fishing hook carefully through the bait to prevent it from falling off."]
+	Step_13 -> Step_14
+	Step_15 [label=""]
+	Step_14 -> Step_15
+	Step_16 [label="3. Cast and Retrieve"]
+	Step_15 -> Step_16
+	Step_17 [label="- Cast your line into the water, ideally in an area where fish are likely to be, such as near reeds, structures, or other fish food sources."]
+	Step_16 -> Step_17
+	Step_18 [label="- Retrieve (wind-in) your line, occasionally twitching the bait to make it appear realistic."]
+	Step_17 -> Step_18
+	Conclusion [label="Publish Your Website or Start Your Business!"]
+	Step_18 -> Conclusion
+}
